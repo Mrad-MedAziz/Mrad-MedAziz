@@ -8,7 +8,7 @@ Mathematics & Computer Science Double Degree student at **Sorbonne Université**
 
 ### Research & Implementation Projects
 
-#### ⚾ [baseball-salary-econometrics](https://github.com/Mrad-MedAziz/baseball-salary-econometrics)
+#### ⚾ [baseball-salary-econometrics](https://github.com/Mrad-MedAziz/Baseball-salary-econometrics)
 *Econometric regression modeling of 1986–1987 Major League Baseball player salaries ($n=263$).*
 * Co-authored supervised research project at Sorbonne Université (Grade: 95/100).
 * Implemented OLS multiple regression ($R^2_{\text{adj}} = 0.617$) evaluating seasonal performance vs. career longevity.
