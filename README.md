@@ -2,7 +2,7 @@
 
 Mathematics & Computer Science Double Degree student at **Sorbonne Université** (Year 2, first-year average: 17.77/20). Interested in mathematical optimization, statistical machine learning theory, and algorithmic complexity.
 
-[Academic CV](./CV-Mohamed-Aziz-MRAD.pdf) • [Email](mailto:azizmrad2006@gmail.com) • [Sorbonne Email](mailto:MohamedAziz.Mrad@etu.sorbonne-universite.fr)
+[Academic CV](./CV-Mohamed-Aziz-MRAD.pdf) • [Email](mailto:azizmrad2006@gmail.com) • [Sorbonne Email](mailto:Mohamed_Aziz.Mrad@etu.sorbonne-universite.fr )
 
 ---
 
