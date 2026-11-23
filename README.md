@@ -1,38 +1,43 @@
 # Mohamed Aziz Mrad
 
-Mathematics & Computer Science Double Degree student at **Sorbonne Université** (Year 2, first-year average: 17.77/20). Interested in mathematical optimization, statistical machine learning theory, and algorithmic complexity.
+Second-year Mathematics and Computer Science student at **Sorbonne Université**.
+First-year average: **17.77/20**. Interested in numerical optimization, machine learning, and algorithms.
 
-[Academic CV](./CV-Mohamed-Aziz-MRAD.pdf) • [Email](mailto:azizmrad2006@gmail.com) • [Sorbonne Email](mailto:Mohamed_Aziz.Mrad@etu.sorbonne-universite.fr )
+[Email](mailto:Mohamed_Aziz.Mrad@etu.sorbonne-universite.fr)
 
----
+## Selected projects
 
-### Research & Implementation Projects
+### [Numerical optimization and logistic regression](https://github.com/Mrad-MedAziz/numerical-optimization-ml)
 
-#### ⚾ [baseball-salary-econometrics](https://github.com/Mrad-MedAziz/Baseball-salary-econometrics)
-*Econometric regression modeling of 1986–1987 Major League Baseball player salaries ($n=263$).*
-* Co-authored supervised research project at Sorbonne Université (Grade: 95/100).
-* Implemented OLS multiple regression ($R^2_{\text{adj}} = 0.617$) evaluating seasonal performance vs. career longevity.
-* Applied variance-stabilizing logarithmic transforms and conducted residual diagnostics (Q-Q plots, Shapiro-Wilk $W = 0.9878$).
-* **Tech:** R, RStudio, ggplot2.
+An independent study that began with NumPy implementations of OLS and logistic regression after studying Stanford CS229.
 
-#### ⚡ [numerical-optimization-ml](https://github.com/Mrad-MedAziz/numerical-optimization-ml)
-*First-principles implementations of core mathematical optimization routines and generalized linear models in pure NumPy.*
-* Analytical Normal Equations vs. Batch Gradient Descent with Armijo backtracking line search.
-* Second-order binary Logistic Regression via Newton-Raphson / Iteratively Reweighted Least Squares (IRLS).
-* Full LaTeX derivations, loss landscape visualizations, and quadratic convergence benchmarks.
-* **Tech:** Python, NumPy, Matplotlib.
+- Compared gradient methods and damped Newton updates on synthetic datasets, including a comparison at a common objective-gap threshold.
+- Investigated whether small gradients indicate convergence on separable data, tracking loss, parameter growth, geometric margin, and distance to a hard-margin SVM direction.
+- Followed unexpected finite-time behavior with support-vector checks, a gradient-contribution diagnostic, shared-step clearance experiments, and an L2-regularized comparison.
+- Checked gradients, QP references, stopping records, and control problems. The published directional convergence result is attributed to Soudry et al. (2018).
 
----
+**Tools:** Python, NumPy, Matplotlib, and Gurobi for the SVM reference.
 
-### Core Competencies
+[Technical report](https://github.com/Mrad-MedAziz/numerical-optimization-ml/blob/main/docs/separable-data.pdf)
 
-* **Theoretical Mathematics:** Real Analysis, Linear Algebra, Probability Theory, Ordinary Least Squares (OLS) Theory, Graph Theory.
-* **Languages:** Python, C, R, Java.
-* **Scientific Computing & Tools:** NumPy, Matplotlib, RStudio, LaTeX, Git/Linux.
+### [Baseball salary modelling](https://github.com/Mrad-MedAziz/Baseball-salary-econometrics)
 
----
+A three-person supervised course project at Sorbonne Université, examining associations between performance, career duration, and salary for 263 baseball hitters. **Grade: 95/100.**
 
-### Academic Distinctions
-* Double Gold Medal, National Mathematics Games, Tunisia (2023, 2024).
-* Mathematics Olympiad Distinction (2024).
-* SAT Mathematics: 790/800.
+- Shared and rotated coding, analysis, interpretation, report writing, and progress presentations over three months, adapting instructor-provided R code.
+- Compared OLS models of log-salary; the combined model explained 62.1% of in-sample log-salary variance (adjusted R²: 0.617).
+- Examined residual structure and normality. The study does not establish causal effects or held-out predictive performance.
+
+**Tools:** R and base-R graphics; RStudio.
+
+## Background
+
+- Mathematics and Computer Science double degree, expected graduation **June 2028**.
+- Coursework in analysis and topology, linear algebra, discrete mathematics, algorithms and data structures.
+- Programming experience in **Python, R, C, and Java**.
+- Mathematics teaching at SAM Academy, working with approximately **40 students per week**.
+
+## Academic distinctions
+
+- **National Mathematics Games, Tunisia:** individual gold medals, high-school category, 2023 and 2024.
+- **SAT:** 1490/1600, including Mathematics 790/800.
